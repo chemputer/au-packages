@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+
+    <id>firebird-emu</id>
+
+    <version>1.5.0</version>
+    <packageSourceUrl>https://github.com/chemputer/au-packages/tree/master/firebird-emu</packageSourceUrl>
+    <owners>chemputer</owners>
+    <title>firebird-emu (Install)</title>
+    <authors>Vogtinator</authors>
+    <projectUrl>https://github.com/nspire-emus/firebird/</projectUrl>
+    <licenseUrl>https://github.com/nspire-emus/firebird/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/nspire-emus/firebird</projectSourceUrl>
+    <docsUrl>https://github.com/nspire-emus/firebird/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/nspire-emus/firebird/issues</bugTrackerUrl>
+    <tags>firebird-emu, nspire, emulator, firebird, ti, calc, calculator</tags>
+    <summary>firebird-emu TI-Nspire Calculator Emulator</summary>
+    <description>firebird-emu is an open source TI-nspire emulator </description>
+
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>
