@@ -15,7 +15,7 @@
     <projectSourceUrl>https://github.com/nspire-emus/firebird</projectSourceUrl>
     <docsUrl>https://github.com/nspire-emus/firebird/wiki</docsUrl>
     <bugTrackerUrl>https://github.com/nspire-emus/firebird/issues</bugTrackerUrl>
-    <tags>firebird-emu, nspire, emulator, firebird, ti, calc, calculator</tags>
+    <tags>firebird-emu nspire emulator firebird ti calc calculator</tags>
     <summary>firebird-emu TI-Nspire Calculator Emulator</summary>
     <description>firebird-emu is an open source TI-nspire emulator </description>
 

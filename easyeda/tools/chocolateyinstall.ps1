@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://image.easyeda.com/files/easyeda-windows-ia32-6.4.19.4.exe'
-$url64      = 'https://image.easyeda.com/files/easyeda-windows-x64-6.4.19.4.exe'
+$url        = 'https://image.easyeda.com/files/easyeda-windows-ia32-6.4.20.6.exe'
+$url64      = 'https://image.easyeda.com/files/easyeda-windows-x64-6.4.20.6.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -12,9 +12,9 @@ $packageArgs = @{
 
   softwareName  = 'EasyEDA Desktop*'
 
-  checksum      = '3fd3d8e5fe64898152ded023b198058389bfa83f6ac9a5bb6617a5365d532a51'
+  checksum      = 'a89fd92a105d5f8cc71a858b3fd428516e828b54c1614778ea2187eb7bfd289d'
   checksumType  = 'sha256'
-  checksum64    = 'ccf78e6abbe2aecdde7bc9c28cd78af1b4df4cc4220f0c23b450aa296c325db1'
+  checksum64    = '61295632e216049f7f4488abec62784a32aac158c4b68f0e3050df6cb262faac'
   checksumType64= 'sha256'
 
   validExitCodes= @(0, 3010, 1641)
